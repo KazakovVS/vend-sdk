@@ -167,6 +167,13 @@ class User extends DataTransferObject
     public $username;
 
     /**
+     * Roles
+     *
+     * @var []|null
+     */
+    public $roles;
+
+    /**
      * Auto-incrementing object version number.
      *
      * @var int
