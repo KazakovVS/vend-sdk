@@ -20,6 +20,13 @@ class PaymentType extends DataTransferObject
     public $config;
 
     /**
+     * Creation timestamp in UTC.
+     *
+     * @var \Carbon\Carbon|null
+     */
+    public $created_at;
+
+    /**
      * The deletion timestamp.
      *
      * @var \Carbon\Carbon|null
@@ -60,6 +67,13 @@ class PaymentType extends DataTransferObject
      * @var string
      */
     public $name;
+
+    /**
+     * Outlet ids **undocumented**.
+     *
+     * @var array|null
+     */
+    public $outlet_ids;
 
     /**
      * Payment type. **undocumented**.

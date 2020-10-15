@@ -73,6 +73,13 @@ class PaymentTypeDetails extends DataTransferObject
     public $name;
 
     /**
+     * Online only.
+     *
+     * @var boolean|null
+     */
+    public $online_only;
+
+    /**
      * Platforms.
      *
      * @var array|null
