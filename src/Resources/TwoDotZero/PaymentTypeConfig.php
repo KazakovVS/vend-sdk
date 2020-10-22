@@ -24,6 +24,13 @@ class PaymentTypeConfig extends DataTransferObject
     public $conceal_cash_totals;
 
     /**
+     * **undocumented**.
+     *
+     * @var integer|string|null
+     */
+    public $previous_payment_type_id;
+
+    /**
      * Indicates whether a receipt will be printed.
      *
      * @var bool|null
