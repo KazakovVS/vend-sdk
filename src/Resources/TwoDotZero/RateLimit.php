@@ -15,7 +15,7 @@ class RateLimit extends DataTransferObject
     /**
      * Error.
      *
-     * @var string
+     * @var string|null
      */
     public $error;
 
