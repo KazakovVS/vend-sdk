@@ -133,6 +133,13 @@ class Sale extends DataTransferObject
     public $source_id;
 
     /**
+     * External ID for sales coming from other systems.
+     *
+     * @var string|null
+     */
+    public $external_id;
+
+    /**
      * Sale status.
      * One of: CLOSED, SAVED, ONACCOUNT, ONACCOUNT_CLOSED, LAYBY, LAYBY_CLOSED. VOIDED ???
      *
