@@ -223,4 +223,11 @@ class Sale extends DataTransferObject
      * @var mixed|null
      */
     public $external_applications;
+
+    /**
+     * **undocumented**
+     *
+     * @var mixed|null
+     */
+    public $return_ids;
 }
