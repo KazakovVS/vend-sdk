@@ -179,4 +179,11 @@ class User extends DataTransferObject
      * @var int
      */
     public $version;
+
+    /**
+     * **undocumented**
+     *
+     * @var mixed|null
+     */
+    public $enabled_mfa;
 }
