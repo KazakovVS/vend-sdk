@@ -2,14 +2,16 @@
 
 namespace SimpleSquid\Vend\Resources\TwoDotZero;
 
-use Spatie\DataTransferObject\DataTransferObject;
+use SimpleSquid\Vend\Resources\VendTransferObject;
 
 /**
  * Image Sizes **undocumented**
  * An object containing URLs for different sizes of an image.
  */
-class ImageSizes extends DataTransferObject
+class ImageSizes extends VendTransferObject
 {
+    protected $ignoreMissing = true;
+
     /**
      * Original.
      *
@@ -58,4 +60,11 @@ class ImageSizes extends DataTransferObject
      * @var string|null
      */
     public $thumb;
+
+    /**
+     * **undocumented**
+     *
+     * @var mixed|null
+     */
+    public $raw;
 }

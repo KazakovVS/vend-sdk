@@ -3,12 +3,12 @@
 namespace SimpleSquid\Vend\Resources\OneDotZero;
 
 use SimpleSquid\Vend\Resources\CastsDates;
-use Spatie\DataTransferObject\DataTransferObject;
+use SimpleSquid\Vend\Resources\VendTransferObject;
 
 /**
  * OAuth Token Response.
  */
-class Token extends DataTransferObject
+class Token extends VendTransferObject
 {
     use CastsDates;
 

@@ -3,12 +3,12 @@
 namespace SimpleSquid\Vend\Resources\TwoDotZero;
 
 use SimpleSquid\Vend\Resources\CastsDates;
-use Spatie\DataTransferObject\DataTransferObject;
+use SimpleSquid\Vend\Resources\VendTransferObject;
 
 /**
  * Product.
  */
-class Product extends DataTransferObject
+class Product extends VendTransferObject
 {
     use CastsDates;
 

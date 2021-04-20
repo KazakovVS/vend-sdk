@@ -2,12 +2,12 @@
 
 namespace SimpleSquid\Vend\Resources\TwoDotZero;
 
-use Spatie\DataTransferObject\DataTransferObject;
+use SimpleSquid\Vend\Resources\VendTransferObject;
 
 /**
  * Image.
  */
-class Image extends DataTransferObject
+class Image extends VendTransferObject
 {
     /**
      * Auto-generated object ID.

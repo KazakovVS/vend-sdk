@@ -2,12 +2,12 @@
 
 namespace SimpleSquid\Vend\Resources\TwoDotZero;
 
-use Spatie\DataTransferObject\DataTransferObject;
+use SimpleSquid\Vend\Resources\VendTransferObject;
 
 /**
  * Payment.
  */
-class Payment extends DataTransferObject
+class Payment extends VendTransferObject
 {
     /**
      * Payment amount.

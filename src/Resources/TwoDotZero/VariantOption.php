@@ -2,12 +2,12 @@
 
 namespace SimpleSquid\Vend\Resources\TwoDotZero;
 
-use Spatie\DataTransferObject\DataTransferObject;
+use SimpleSquid\Vend\Resources\VendTransferObject;
 
 /**
  * Variant Option.
  */
-class VariantOption extends DataTransferObject
+class VariantOption extends VendTransferObject
 {
     /**
      * The Variant Option ID. **undocumented**.

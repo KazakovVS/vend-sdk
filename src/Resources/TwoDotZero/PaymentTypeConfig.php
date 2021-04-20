@@ -2,12 +2,12 @@
 
 namespace SimpleSquid\Vend\Resources\TwoDotZero;
 
-use Spatie\DataTransferObject\DataTransferObject;
+use SimpleSquid\Vend\Resources\VendTransferObject;
 
 /**
  * Payment Type Config.
  */
-class PaymentTypeConfig extends DataTransferObject
+class PaymentTypeConfig extends VendTransferObject
 {
     /**
      * Algorithm **undocumented**.

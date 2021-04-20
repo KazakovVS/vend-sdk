@@ -2,12 +2,12 @@
 
 namespace SimpleSquid\Vend\Resources\ZeroDotNine;
 
-use Spatie\DataTransferObject\DataTransferObject;
+use SimpleSquid\Vend\Resources\VendTransferObject;
 
 /**
  * Register Sale Payment Update Base.
  */
-class RegisterSalePaymentUpdateBase extends DataTransferObject
+class RegisterSalePaymentUpdateBase extends VendTransferObject
 {
     /**
      * Payment amount.

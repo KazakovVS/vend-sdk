@@ -2,12 +2,12 @@
 
 namespace SimpleSquid\Vend\Resources\ZeroDotNine;
 
-use Spatie\DataTransferObject\DataTransferObject;
+use SimpleSquid\Vend\Resources\VendTransferObject;
 
 /**
  * Register Sale Product Update Base.
  */
-class RegisterSaleProductUpdateBase extends DataTransferObject
+class RegisterSaleProductUpdateBase extends VendTransferObject
 {
     /**
      * Additional line item attributes.

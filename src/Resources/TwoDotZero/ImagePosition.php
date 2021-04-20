@@ -2,12 +2,12 @@
 
 namespace SimpleSquid\Vend\Resources\TwoDotZero;
 
-use Spatie\DataTransferObject\DataTransferObject;
+use SimpleSquid\Vend\Resources\VendTransferObject;
 
 /**
  * Image Position.
  */
-class ImagePosition extends DataTransferObject
+class ImagePosition extends VendTransferObject
 {
     /**
      * New position for the image.

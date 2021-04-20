@@ -2,12 +2,12 @@
 
 namespace SimpleSquid\Vend\Resources\ZeroDotNine;
 
-use Spatie\DataTransferObject\DataTransferObject;
+use SimpleSquid\Vend\Resources\VendTransferObject;
 
 /**
  * Consignment Product Base.
  */
-class ConsignmentProductBase extends DataTransferObject
+class ConsignmentProductBase extends VendTransferObject
 {
     /**
      * The ID of the consignment associated with this item.

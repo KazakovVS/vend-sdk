@@ -2,12 +2,12 @@
 
 namespace SimpleSquid\Vend\Resources\TwoDotZero;
 
-use Spatie\DataTransferObject\DataTransferObject;
+use SimpleSquid\Vend\Resources\VendTransferObject;
 
 /**
  * Line Item.
  */
-class LineItem extends DataTransferObject
+class LineItem extends VendTransferObject
 {
     /**
      * Unit cost for the line item.

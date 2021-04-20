@@ -2,12 +2,12 @@
 
 namespace SimpleSquid\Vend\Resources\TwoDotZero;
 
-use Spatie\DataTransferObject\DataTransferObject;
+use SimpleSquid\Vend\Resources\VendTransferObject;
 
 /**
  * Supplier.
  */
-class Supplier extends DataTransferObject
+class Supplier extends VendTransferObject
 {
     /**
      * Deletion timestamp in UTC.

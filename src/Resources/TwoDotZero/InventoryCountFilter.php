@@ -2,12 +2,12 @@
 
 namespace SimpleSquid\Vend\Resources\TwoDotZero;
 
-use Spatie\DataTransferObject\DataTransferObject;
+use SimpleSquid\Vend\Resources\VendTransferObject;
 
 /**
  * Inventory Count Filter.
  */
-class InventoryCountFilter extends DataTransferObject
+class InventoryCountFilter extends VendTransferObject
 {
     /**
      * Filter type.

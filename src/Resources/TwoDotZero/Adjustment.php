@@ -2,7 +2,7 @@
 
 namespace SimpleSquid\Vend\Resources\TwoDotZero;
 
-use Spatie\DataTransferObject\DataTransferObject;
+use SimpleSquid\Vend\Resources\VendTransferObject;
 
 /**
  * Adjustment
@@ -10,7 +10,7 @@ use Spatie\DataTransferObject\DataTransferObject;
  * pays by credit card) or a discount. The types defined here are the one used so far, but we reserve the right to add
  * others.
  */
-class Adjustment extends DataTransferObject
+class Adjustment extends VendTransferObject
 {
     /**
      * Adjustment name.

@@ -2,12 +2,12 @@
 
 namespace SimpleSquid\Vend\Resources\TwoDotZero;
 
-use Spatie\DataTransferObject\DataTransferObject;
+use SimpleSquid\Vend\Resources\VendTransferObject;
 
 /**
  * Tag.
  */
-class Tag extends DataTransferObject
+class Tag extends VendTransferObject
 {
     /**
      * Deletion timestamp in UTC.

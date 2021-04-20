@@ -3,12 +3,12 @@
 namespace SimpleSquid\Vend\Resources\ZeroDotNine;
 
 use SimpleSquid\Vend\Resources\CastsDates;
-use Spatie\DataTransferObject\DataTransferObject;
+use SimpleSquid\Vend\Resources\VendTransferObject;
 
 /**
  * Consignment Base.
  */
-class ConsignmentBase extends DataTransferObject
+class ConsignmentBase extends VendTransferObject
 {
     use CastsDates;
 

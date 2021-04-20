@@ -2,12 +2,12 @@
 
 namespace SimpleSquid\Vend\Resources\TwoDotZero;
 
-use Spatie\DataTransferObject\DataTransferObject;
+use SimpleSquid\Vend\Resources\VendTransferObject;
 
 /**
  * Search.
  */
-class Search extends DataTransferObject
+class Search extends VendTransferObject
 {
     /**
      * The `id` of the object to be included in the response.

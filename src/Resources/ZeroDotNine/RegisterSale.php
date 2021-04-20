@@ -2,12 +2,12 @@
 
 namespace SimpleSquid\Vend\Resources\ZeroDotNine;
 
-use Spatie\DataTransferObject\DataTransferObject;
+use SimpleSquid\Vend\Resources\VendTransferObject;
 
 /**
  * Register Sale.
  */
-class RegisterSale extends DataTransferObject
+class RegisterSale extends VendTransferObject
 {
     /**
      * Xero invoice reference ID. Only editable for `ONACCOUNT` sales.

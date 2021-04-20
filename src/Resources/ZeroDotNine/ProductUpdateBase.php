@@ -2,12 +2,12 @@
 
 namespace SimpleSquid\Vend\Resources\ZeroDotNine;
 
-use Spatie\DataTransferObject\DataTransferObject;
+use SimpleSquid\Vend\Resources\VendTransferObject;
 
 /**
  * Product Update Base.
  */
-class ProductUpdateBase extends DataTransferObject
+class ProductUpdateBase extends VendTransferObject
 {
     /**
      * Code used to associate sales of the product with a specific account. Value will be returned as `account_code_sales`.

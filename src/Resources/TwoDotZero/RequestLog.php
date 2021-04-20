@@ -3,13 +3,13 @@
 namespace SimpleSquid\Vend\Resources\TwoDotZero;
 
 use SimpleSquid\Vend\Resources\CastsDates;
-use Spatie\DataTransferObject\DataTransferObject;
+use SimpleSquid\Vend\Resources\VendTransferObject;
 
 /**
  * Request Log
  * An object representing a single request and response made to a channel.
  */
-class RequestLog extends DataTransferObject
+class RequestLog extends VendTransferObject
 {
     use CastsDates;
 

@@ -2,12 +2,12 @@
 
 namespace SimpleSquid\Vend\Resources\TwoDotZero;
 
-use Spatie\DataTransferObject\DataTransferObject;
+use SimpleSquid\Vend\Resources\VendTransferObject;
 
 /**
  * Inventory Count Item Request.
  */
-class InventoryCountItemRequest extends DataTransferObject
+class InventoryCountItemRequest extends VendTransferObject
 {
     /**
      * The ID of the product for which the count should be adjusted.

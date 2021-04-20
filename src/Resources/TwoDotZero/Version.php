@@ -2,13 +2,13 @@
 
 namespace SimpleSquid\Vend\Resources\TwoDotZero;
 
-use Spatie\DataTransferObject\DataTransferObject;
+use SimpleSquid\Vend\Resources\VendTransferObject;
 
 /**
  * Version
  * An object containing the highest and lowest version numbers for all items of the returned collection.
  */
-class Version extends DataTransferObject
+class Version extends VendTransferObject
 {
     /**
      * Highest version number of the payload.

@@ -2,12 +2,12 @@
 
 namespace SimpleSquid\Vend\Resources\ZeroDotNine;
 
-use Spatie\DataTransferObject\DataTransferObject;
+use SimpleSquid\Vend\Resources\VendTransferObject;
 
 /**
  * Product.
  */
-class Product extends DataTransferObject
+class Product extends VendTransferObject
 {
     /**
      * Code used to associate purchase (cost) of the product with a specific account.

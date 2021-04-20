@@ -2,12 +2,12 @@
 
 namespace SimpleSquid\Vend\Resources\TwoDotZero;
 
-use Spatie\DataTransferObject\DataTransferObject;
+use SimpleSquid\Vend\Resources\VendTransferObject;
 
 /**
  * Tax rate.
  */
-class TaxRate extends DataTransferObject
+class TaxRate extends VendTransferObject
 {
     /**
      * The name of the tax rate used for display.

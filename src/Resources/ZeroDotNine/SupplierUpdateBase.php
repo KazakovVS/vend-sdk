@@ -2,12 +2,12 @@
 
 namespace SimpleSquid\Vend\Resources\ZeroDotNine;
 
-use Spatie\DataTransferObject\DataTransferObject;
+use SimpleSquid\Vend\Resources\VendTransferObject;
 
 /**
  * Supplier Update Base.
  */
-class SupplierUpdateBase extends DataTransferObject
+class SupplierUpdateBase extends VendTransferObject
 {
     /**
      * Generic contact object embedded in other objects like outlet or supplier.

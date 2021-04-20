@@ -2,12 +2,12 @@
 
 namespace SimpleSquid\Vend\Resources\ZeroDotNine;
 
-use Spatie\DataTransferObject\DataTransferObject;
+use SimpleSquid\Vend\Resources\VendTransferObject;
 
 /**
  * Webhook.
  */
-class Webhook extends DataTransferObject
+class Webhook extends VendTransferObject
 {
     /**
      * Indicates whether the webhook is active.

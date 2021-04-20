@@ -3,12 +3,12 @@
 namespace SimpleSquid\Vend\Resources\TwoDotZero;
 
 use SimpleSquid\Vend\Resources\CastsDates;
-use Spatie\DataTransferObject\DataTransferObject;
+use SimpleSquid\Vend\Resources\VendTransferObject;
 
 /**
  * Inventory Count Item.
  */
-class InventoryCountItem extends DataTransferObject
+class InventoryCountItem extends VendTransferObject
 {
     use CastsDates;
 
