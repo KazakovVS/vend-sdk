@@ -58,4 +58,11 @@ class UserImage extends VendTransferObject
      * @var string|null
      */
     public $thumb;
+
+    /**
+     * **undocumented**
+     *
+     * @var mixed|null
+     */
+    public $raw;
 }
