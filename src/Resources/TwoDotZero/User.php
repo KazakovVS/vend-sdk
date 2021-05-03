@@ -186,4 +186,11 @@ class User extends VendTransferObject
      * @var mixed|null
      */
     public $enabled_mfa;
+
+    /**
+     * **undocumented**
+     *
+     * @var mixed|null
+     */
+    public $raw;
 }
