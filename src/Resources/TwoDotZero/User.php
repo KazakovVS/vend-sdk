@@ -22,14 +22,14 @@ class User extends VendTransferObject
     /**
      * Creation timestamp in UTC.
      *
-     * @var \Carbon\Carbon
+     * @var \Carbon\Carbon|null
      */
     public $created_at;
 
     /**
      * Deletion timestamp in UTC.
      *
-     * @var mixed|null
+     * @var \Carbon\Carbon|null
      */
     public $deleted_at;
 
@@ -120,7 +120,7 @@ class User extends VendTransferObject
     /**
      * Switch ID. **undocumented**.
      *
-     * @var string
+     * @var string|null
      */
     public $switch_id;
 
@@ -162,7 +162,7 @@ class User extends VendTransferObject
     /**
      * User's username used for login.
      *
-     * @var string
+     * @var string|null
      */
     public $username;
 
