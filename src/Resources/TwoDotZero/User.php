@@ -29,7 +29,7 @@ class User extends VendTransferObject
     /**
      * Deletion timestamp in UTC.
      *
-     * @var \Carbon\Carbon|null
+     * @var mixed|null
      */
     public $deleted_at;
 
